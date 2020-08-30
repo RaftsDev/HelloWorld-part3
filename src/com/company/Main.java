@@ -42,8 +42,10 @@ public class Main {
         // right number of parameters.
 
         //Challenge of constructors
+        System.out.println("Challenge of constructors");
 
         Account bobsAccount = new Account("Bob",123);
+        System.out.println("Bobs account: "+bobsAccount.getName()+" "+bobsAccount.getNumber()+" "+bobsAccount.getBalance());
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
