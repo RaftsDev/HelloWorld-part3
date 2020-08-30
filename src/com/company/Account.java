@@ -24,6 +24,18 @@ public class Account {
         System.out.println("4 params constr called");
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
     public Account(String name, int number) {
         this(name,number,"defaultMail","-",50.00);
         System.out.println("2 params constr called");
