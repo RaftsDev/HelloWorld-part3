@@ -8,4 +8,20 @@ public class Account {
     private double balance;
     private double deposit;
     private double withdraw;
+
+    public Account(String name, int number, String mail, String phone, double balance) {
+        this.name = name;
+        this.number = number;
+        this.mail = mail;
+        this.phone = phone;
+        this.balance = balance;
+    }
+
+    public Account(String name, int number, String mail, String phone) {
+        this.name = name;
+        this.number = number;
+        this.mail = mail;
+        this.phone = phone;
+
+    }
 }
