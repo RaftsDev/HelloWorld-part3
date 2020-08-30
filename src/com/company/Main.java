@@ -46,6 +46,10 @@ public class Main {
 
         Account bobsAccount = new Account("Bob",123);
         System.out.println("Bobs account: "+bobsAccount.getName()+" "+bobsAccount.getNumber()+" "+bobsAccount.getBalance());
+
+        bobsAccount.deposit(50.00);
+        bobsAccount.withdraw(101.00);
+        bobsAccount.withdraw(90.00);
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
