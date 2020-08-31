@@ -14,10 +14,14 @@ public class Dog extends Animal{
         this.eyes = 2;
     }
 
+    private void chew(){
+        System.out.println("dog chewing");
+    }
     @Override
     public void eat() {
-//        super.eat();
+        super.eat();
         System.out.println("Dog.eat");
+        this.chew();
     }
 
     @Override

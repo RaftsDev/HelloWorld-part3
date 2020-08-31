@@ -11,10 +11,21 @@ public class Fish extends Animal{
         this.fins = 3;
         this.eyes = 2;
     }
+private void swalow(){
+    System.out.println("fish swalow");
+}
+
+    @Override
+    public void eat() {
+        System.out.println("fish eat");
+        super.eat();
+        this.swalow();
+    }
 
     @Override
     public void move(double speed) {
         super.move(speed);
         System.out.println("Fish swim");
     }
+
 }
