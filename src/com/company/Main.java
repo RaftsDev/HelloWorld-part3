@@ -4,8 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         int newScore = calculateScore("Tim", 500);
-        System.out.println("New score is " + newScore);
-        calculateScore(75);
+        System.out.println("New score is " + newScore)calculateScore(75);
         calculateScore();
         double centimeters = calcFeetAndInchesToCentimeters(6,0);
         if(centimeters <0.0) {
@@ -50,6 +49,7 @@ public class Main {
         bobsAccount.deposit(50.00);
         bobsAccount.withdraw(101.00);
         bobsAccount.withdraw(90.00);
+        //The end of constructor challenge
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
