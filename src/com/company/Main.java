@@ -51,6 +51,15 @@ public class Main {
         bobsAccount.withdraw(101.00);
         bobsAccount.withdraw(90.00);
         //The end of constructor challenge
+
+       //Inheritance
+        Dog snoopy = new Dog();
+        snoopy.move(5);
+        snoopy.eat();
+
+        Fish jelly = new Fish();
+        jelly.eat();
+        // End of inheritance
     }
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
