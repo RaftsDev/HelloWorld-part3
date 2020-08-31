@@ -5,6 +5,11 @@ public class Animal {
     int size;
     int weight;
 
+    public Animal(String name, int size, int weight) {
+        this.name = name;
+        this.size = size;
+        this.weight = weight;
+    }
 
     public void eat(){
         System.out.println("Animal eat");

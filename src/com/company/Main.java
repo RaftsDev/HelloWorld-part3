@@ -55,14 +55,14 @@ public class Main {
        //Inheritance
 
         //Dog
-        Dog snoopy = new Dog();
-        snoopy.move(5);
-        snoopy.eat();
+        Dog dog = new Dog("snoopy",2,10);
+        dog.move(5);
+        dog.eat();
 
         //Fish
-        Fish jelly = new Fish();
-        jelly.eat();
-        jelly.move(5);
+        Fish fish = new Fish("jelly",1,2);
+        fish.eat();
+        fish.move(5);
 
         // End of inheritance
     }
