@@ -53,6 +53,7 @@ public class Main {
         //The end of constructor challenge
 
        //Inheritance
+
         //Dog
         Dog snoopy = new Dog();
         snoopy.move(5);
@@ -62,6 +63,7 @@ public class Main {
         Fish jelly = new Fish();
         jelly.eat();
         jelly.move(5);
+
         // End of inheritance
     }
 
