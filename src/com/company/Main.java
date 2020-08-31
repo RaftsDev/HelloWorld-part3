@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         int newScore = calculateScore("Tim", 500);
-        System.out.println("New score is " + newScore)calculateScore(75);
+        System.out.println("New score is " + newScore);
+        calculateScore(75);
         calculateScore();
         double centimeters = calcFeetAndInchesToCentimeters(6,0);
         if(centimeters <0.0) {
