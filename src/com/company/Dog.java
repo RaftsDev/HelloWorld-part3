@@ -11,4 +11,10 @@ public class Dog extends Animal{
 //        super.eat();
         System.out.println("Dog.eat");
     }
+
+    @Override
+    public void move(double speed) {
+        super.move(10);
+        System.out.println("Dog running 10mph");
+    }
 }
