@@ -60,7 +60,7 @@ public class Main {
         dog.eat();
 
         //Fish
-        Fish fish = new Fish("jelly",1,2);
+        Fish fish = new Fish("jelly",1,2,2,4,2);
         fish.eat();
         fish.move(5);
 

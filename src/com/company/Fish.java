@@ -5,13 +5,14 @@ public class Fish extends Animal{
     int fins;
     int eyes;
 
-    public Fish(String name, int size, int weight) {
+    public Fish(String name, int size, int weight, int gills, int fins, int eyes) {
         super(name, size, weight);
-        this.gills = 2;
-        this.fins = 3;
-        this.eyes = 2;
+        this.gills = gills;
+        this.fins = fins;
+        this.eyes = eyes;
     }
-private void swalow(){
+
+    private void swalow(){
     System.out.println("fish swalow");
 }
 
